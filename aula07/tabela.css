@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/* eu falo para ele contar nas inputs os padding e as bordas juntos na hora de pedir 100% do espaço do que o input vai ocupar */
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #DEDEDE;
+}
+
+.tabela table {
+    background-color: #ffffff;  
+    border-radius: 5px;
+    border-collapse: collapse;
+}
+
+.tabela table thead {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.tabela table thead th {
+    height: 46px;
+}
+
+.tabela table tbody td {
+    padding: 5px;
+    line-height: 40px;
+    outline: 1px solid #000000;
+    outline-offset: -1px; /*  */
+}
+
+.tabela table tbody tr:nth-child(2) {
+    background-color: red;
+}
+
+

@@ -1,0 +1,19 @@
+body {
+    display: flex; /* estou dizendo que o meu elemento é flexível */
+    justify-content: space-around; /* estou dizendo o elemento será dividido em partes iguais */
+}
+
+div.lado-esquerdo > img {
+    width: 60%;/* largura */
+}
+
+.lado-direito, .lado-esquerdo {
+    width: 50%;/* largura */
+}
+
+.lado-direito > .formulario {
+    background-color: #dedede;/* cor de fundo */
+    border-radius: 5px;/* arredondar a borda */
+    padding: 10px;/* espaçamento interno */
+}
+

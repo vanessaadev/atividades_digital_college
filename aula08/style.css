@@ -1,0 +1,82 @@
+body {
+  background-color: #dedede;
+}
+
+.secao-detalhes {
+    /* flexbox para ajustar as divs em colunas */
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.secao-detalhes article /* aqui faz com que a imagem fique redonda */{
+  background-color: #ffffff;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin-bottom: 30px;
+  /* flexbox para centralizar o icone dentro da tag article*/
+  display: flex; /* deixo a imagem flexível para modificar */
+  justify-content: center; /* ajusta os itens horizontalmente */
+  align-items: center; /* muda os itens verticalmente */
+  transition: 1s;
+  box-shadow: 0px 0px 30px 1px #000000; /* 1° esquerda ou direita 2° para cima ou para baixo 3° expansão da sombra 4° espaçamento da sombra*/
+}
+
+.secao-detalhes article:hover {
+    color: red;
+    transition: 1s;
+    transform: scale(1.2) rotate(360deg);
+}
+
+.secao-detalhes i {
+    font-size: 4rem
+}
+
+#sabores {
+    width: 300px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 150px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px #00000015;
+    padding: 16px;
+}
+
+#sabores label {
+    display: block;
+}
+
+#sabores input[type="checkbox"]{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+#sabores input[type="checkbox"]::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    border: 2px solid #aa00e3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 3px;
+    transition: all 200ms;
+}
+
+#sabores input[type="checkbox"]:checked::after {
+    background-color: #aa00e3;
+}
+
+#sabores input[type="checkbox"]::before {
+    content: "";
+    width: 12px;
+    height: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    border-bottom: 2px solid red;
+    border-left: 2px solid red;
+}

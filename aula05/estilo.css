@@ -1,0 +1,101 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-color: #dedede;
+    /* aqui é o flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form{
+    width: 350px; /* largura, px=pixel */
+    background-color: white; /* cor de fundo */
+    margin: 0 auto; /* espaçamento que dá para fora */
+    margin-top: 100px; /* margem de cima */
+    padding: 16px;/* espaçamento */
+    border-radius: 5px;/* arredondar bordas */
+}
+
+form button:hover{
+    background-color: rgb(41, 76, 250);
+}
+
+.formedit{
+    box-shadow: 2px 2px 0.4em #909090; /* sombra/contorno */
+}
+
+form h5{
+    font-size: 10px;/* tamanho da fonte */
+    margin-top: 16px;/* margem de cima */
+}
+
+label {
+    display: block; /* elemento em bloco, se for em linha é inline */
+    margin-bottom: 6px; /* margem de baixo */
+}
+
+input, select{
+    width: 100%; /* largura */
+    height: 40px; /* altura */
+    margin-bottom: 16px; /* margem de baixo */
+    padding: 0 10px; /* espaçamento */
+}
+
+input:focus, select:focus, textarea:focus{
+    outline-color: #294cfa;
+}
+
+textarea{
+    width: 100%;
+    height: 120px;
+    margin-bottom: 16px; /* margem de baixo */
+    padding: 10px;
+}
+
+select{
+    font-weight: bold; /* tamanho da fonte */
+}
+
+button{
+    width: 45%; /* largura */
+    height: 46px; /* altura */
+    padding: 0 26px; /* espaçamento interno */
+    background-color: rgb(120, 120, 235); /* cor de fundo */
+    color: white; /* cor da fonte */
+    font-size: 16px; /* tamanho da fonte */
+    border: none; /* borda */
+    border-radius: 5px; /* bordas arredondadas */
+    transition-duration: 300ms;/* duração da transição em ms(milisegundos) */
+}
+
+.botoes{
+    display: flex;
+    gap: 16px; /*Espaçamento entre os filhos de um elemento*/
+    justify-content: space-between;
+}
+
+button:hover{
+    background-color: #b3bded ;
+}
+
+.botao-grande{
+    width: 100%; /* largura */
+}
+
+
+
+table{
+    width: 80%; /* largura0 */
+    background-color: #ffffff;/* cor de fundo */
+    padding: 16px;/* espaçamento */
+    border-radius: 5px;/* arrendonda a ponta */
+    border-collapse: collapse;
+}
