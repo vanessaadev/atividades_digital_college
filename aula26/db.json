@@ -1,0 +1,76 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "titulo": "calças",
+      "descricao": "calças em geral"
+    },
+    {
+      "id": 3,
+      "titulo": "blusas",
+      "descricao": "blusas em geral"
+    },
+    {
+      "nome": "calças",
+      "descricao": "calças em geral",
+      "id": 5
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "categoria_id": 2,
+      "tamanho": "40",
+      "codigo": "1023-4",
+      "marca": "handara",
+      "cor": "ArteSurf",
+      "descricao": "",
+      "titulo": "Bota cano alto",
+      "valor": "59.90",
+      "quantidade": 10,
+      "imagens": [
+        "imagem01.jpg",
+        "imagem02.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "categoria_id": 3,
+      "tamanho": "M",
+      "codigo": "1023-4",
+      "marca": "marisa",
+      "cor": "ArteSurf",
+      "descricao": "",
+      "titulo": "blusa cropped",
+      "valor": "29.90",
+      "quantidade": 10,
+      "imagens": [
+        "imagem10.jpg",
+        "imagem11.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "categoria_id": 1,
+      "tamanho": "46",
+      "codigo": "1023-4",
+      "marca": "handara",
+      "cor": "ArteSurf",
+      "descricao": "",
+      "titulo": "Calça boca de sino",
+      "valor": "79.90",
+      "quantidade": 10,
+      "imagens": [
+        "imagem12.jpg",
+        "imagem13.jpg"
+      ]
+    }
+  ],
+  "clientes": [
+    {
+      "id": 1,
+      "nome": "Vanessa",
+      "cpf": "15312516347"
+    }
+  ]
+}
