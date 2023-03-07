@@ -1,7 +1,12 @@
 //READ
 function listarAlunos(){
-    let alunos = JSON.parse(localStorage.getItem('alunos')) || [];
+    // let alunos = JSON.parse(localStorage.getItem('alunos')) || [];
 
+    fetch("'http://localhost:8000/alunos")
+    .then(res => res.json())
+    .then(alunos => {
+        
+    })
     let tabela = document.getElementById("tabela-body");
     tabela.innerHTML = "";
     alunos.forEach((aluno, key) => {
