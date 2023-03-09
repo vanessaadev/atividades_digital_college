@@ -28,7 +28,7 @@ export default function App() {
 return(
 <>
   <header>
-    <Link/>Home
+    <Link to="articles">Home</Link>
   </header>
   <h1>Olá mundo!</h1>
   <h2 className="red">Digital College</h2>
